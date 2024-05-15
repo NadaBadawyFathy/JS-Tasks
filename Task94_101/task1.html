@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Learn JavaScript</title>
+    <script>
+      // Your Code Here Task1
+      window.onload = function(){
+        for (let index = 0; index < 4; index++) {
+          if (document.links[index].classList.contains('open') && document.links[index].innerHTML === 'Elzero'){
+            document.links[index].click();
+          }
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <!-- test on video 94 -->
+    <form action="">
+        <input type="text" class="one">
+        <input type="text" class="two">
+    </form>
+    <hr>
+    <!-- Task1 -->
+    <a class="open" href="https://google.com">Google</a>
+    <a class="open" href="https://elzero.org">Elzero</a>
+    <a class="not" href="https://facebook.com">Facebook</a>
+    <a class="linked" href="https://linkedin.com">Elzero</a>
+    
+    <script src="main.js"></script>
+  </body>
+</html>
+

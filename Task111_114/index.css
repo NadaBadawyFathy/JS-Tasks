@@ -1,0 +1,44 @@
+body {
+    background-color: antiquewhite;
+}
+
+/*--------------------------Task1--------------------------*/
+.form div {
+    display: block;
+    margin-bottom: 15px;
+}
+.form div label {
+    margin-right: 15px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.form div select {
+    width: 300px;
+    padding: 5px 0;
+}
+.form div select:focus {
+    outline: none;
+}
+.nada {
+    margin-top: 50px;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Open Sans';
+    color: red;
+    font-size: 16px;
+}
+
+/*--------------------------Task2--------------------------*/
+form label {
+    margin-right: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+form select ,
+form input{
+    width: 300px;
+    padding: 5px 0;
+}
+form select:focus,
+form input:focus  {
+    outline: none;
+}

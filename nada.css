@@ -1,0 +1,13 @@
+body {
+    display: grid; grid-template-columns: repeat(auto-fill,minmax(350px,1fr)); gap: 15px;
+    color: gainsboro; padding: 15px; text-align: center; 
+     background-color: #00bcd4; color: white; font-size: 25px; 
+     padding: 20px; text-align: center; 
+     color: #333;
+     background-color: #ccc;
+     position: absolute; bottom: 0;
+     border-radius: 50%;
+     border: #333;
+     justify-content: space-between;
+     position: absolute; top: -10px ; right: -10px; font-size: 20px;
+}
